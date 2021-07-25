@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  background-color: #222;
+  min-height: 75px;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap {
+  max-width: 1140px;
+  margin: 0 auto;
+  /* background-color: red; */
+  outline: 1px solid red;
+
+}
+
+.title {
+  min-height: 760px;
+  background-color: #F1E4E6;
+}
+.title-wrap {
+  display: flex;
+  align-items: center;
+  min-height: 760px;
+  justify-content: flex-end;
+}
+.site-heading {
+  width: 400px;
+  background-color: green;
+  margin-right: 95px;
+}
+
+.slash{
+  margin-right: 200px;
+  float: left;
+}
+.products{
+  padding: 30px 0 50px 0;
+}
+.top-categories{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+}
+.category{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.acsessuar{
+  padding-top: 30px;
+}
+/* .acsessuar-foto{
+  position: relative;
+}  */
+
+.actionwomen{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+/* line-height: 19px; */
+text-align: center;
+position: absolute;
+margin: 105px;
+height: 50px;
+width: 154px;
+color: #FFFFFF;
+}
+.actionmen{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  /* line-height: 19px; */
+  position: absolute;
+  color: #FFFFFF;
+  text-align: center;
+  
+}
+.actionchildren{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  /* line-height: 19px; */
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+}
+ .text-acsessuar{
+position: absolute;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+} 
+.block{
+  text-align: center;
+  margin-bottom: 48px;
+}
+.tems{
+  padding-top: 24px;
+}
+.home{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+color: #222222;
+text-align: center;
+}
+.hometext{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #9F9F9F;
+
+}
+.readmy{
+  text-align: center;
+}
+.container {
+  padding: 20px calc(50% - 1140px / 2);
+} 
+.feedback {
+  background-color: #222224;
+  min-height: 340px;
+  align-items: center;
+ 
+
+}
+.product{
+  margin-top: 18px;
+} 
+/* .categories {
+  background-color:#FFFFFF;
+  margin-top: 60px; 
+  display: flex;
+  justify-content: space-between;
+} */
+
+ .card{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}  
+.goods{
+  width: 363px;
+  text-align: left;
+}
+.centertext{
+  padding-left: 710px;
+  margin-top: 96px;
+}
+.textproducttop{
+  margin-top: 96px;
+  align-items: center;
+}
+.buttom{
+  padding-left: 527px;
+  padding-top: 48px;
+border: 1px solid #FF6A6A;
+padding-bottom: 95px;
+}
+.back{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 103px;
+}
+.feedtop{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 19.96px;
+line-height: 24px;
+color: #FBFBFB;
+}
+.feedtext{
+  width: 360px;
+  height: 34px;
+  margin-top: 16px;
+  font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 13.972px;
+line-height: 17px;
+text-align: center;
+color: #FBFBFB;
+}
+.feedtop{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 19.96px;
+line-height: 24px;
+color: #FBFBFB;
+text-align: center;
+}
+.visiocar{
+ padding-left: 158px;
+}
+.visioproc{
+  padding-left: 156px;
+ }
+ .visiocor{
+  padding-left: 156px;
+ }
+ .footer{
+   background-color: rgba(244, 244, 244, 0.7);
+   background-image: url(../img/fonfooter.jpg);
+   /* background-image: initial; */
+   height: 448px;
+ }
+ 
+ .headtext{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222224;
+ }
+  .footercontent{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .headtext{
+   width: 360px;
+ }
+ 
